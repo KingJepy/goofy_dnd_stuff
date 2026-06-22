@@ -25,9 +25,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import DragImagePage from "./components/DragImagePage";
-import About from "./components/About";
-import Gallery from "./components/Gallery";
-import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -35,9 +32,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/drag" element={<DragImagePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
